@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animate test</title>
+  <style>
+    #box {
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left: 0;
+      background-color: #66CCFF;
+    }
+    button {
+      font-size: 20px;
+      width: 6em;
+      text-align: center;
+      line-height: 2.2;
+      border: 2px solid #000;
+      border-color: currentColor;
+      margin-top: 20px;
+      background: transparent;
+      cursor: pointer;
+    }
+    button:hover {
+      color: #66CCFF;
+    }
+  </style>
+  <script src="../dist/animate.js"></script>
+</head>
+<body>
+  <div id="box"></div> 
+  <button id="btn">Run</button>
+  <script>
+    var btn = document.getElementById('btn'),
+        box = document.getElementById('box');
+    btn.onclick = function () {
+      animate(box, 'left', 0, 300, 300);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "js-animate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ganlanyuan/animate",
+  "authors": [
+    "William <ganlanyuan@gmail.com>"
+  ],
+  "description": "Animate an element with js.",
+  "main": "/dist/animate.js",
+  "moduleType": [],
+  "keywords": [
+    "animate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
